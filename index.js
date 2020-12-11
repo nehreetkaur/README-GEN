@@ -64,7 +64,7 @@ MIT  [READ-MORE-ABOUT-LICENCES](https://opensource.org/licenses/MIT)
 ### GITHUB-USERNAME:  **${github}**
 
 
-[My-GITHUB_-Link](https://github.com/)
+[My-GITHUB-Link](https://github.com/)
 
 
 
