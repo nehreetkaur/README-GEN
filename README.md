@@ -1,5 +1,5 @@
 # Title
-jjj
+README.md
 
 
 [![Licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,29 +9,29 @@ jjj
 
 
 
-jj
+Good readme generator by answering some prompts by user.
 
 
 # Table of contents
 
 
-* [Installation](#Installation)
+* [Installation](#installation)
 
 
-* [Licence](#Licence)
+* [Licence](#licence)
 
-* [Contributor](#Contributor)
+* [Contributor](#contributor)
 
 * [github](#github)
 
-* [email](#email)
+* [Email](#email)
 
-* [Questions](#Questions)
+* [Questions](#questions)
 
 
 ## Installation
 
-**k**
+**npm node inquirer**
 
 ## Contributor
 **one**
@@ -48,18 +48,18 @@ MIT  [READ-MORE-ABOUT-LICENCES](https://opensource.org/licenses/MIT)
 
 
 ## github 
-**kk**
+**nehreet kaur**
 
 ## email
-**kkk** 
+**kaur.nehreet @ gmail.com** 
 
 ## Questions
 
 **FEEL FREE TO CONTACT ME IN CASE OF ANY QUESTIONS**
 
-### E-Mail:  **kkk**
+### E-Mail:  **kaur.nehreet @ gmail.com**
 
-### GITHUB-USERNAME:  **kk**
+### GITHUB-USERNAME:  **nehreet kaur**
 
 
 [My-GITHUB_-inkk](https://github.com/)

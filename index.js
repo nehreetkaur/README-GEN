@@ -22,13 +22,13 @@ ${discription}
 
 # Table of contents
 
-\n* [Installation](#Installation)
+\n* [Installation](#installation)
 
-\n* [Licence](#Licence)
-\n* [Contributor](#Contributor)
+\n* [Licence](#licence)
+\n* [Contributor](#contributor)
 \n* [github](#github)
-\n* [email](#email)
-\n* [Questions](#Questions)
+\n* [Email](#email)
+\n* [Questions](#questions)
 
 
 ## Installation
@@ -64,7 +64,7 @@ MIT  [READ-MORE-ABOUT-LICENCES](https://opensource.org/licenses/MIT)
 ### GITHUB-USERNAME:  **${github}**
 
 
-[My-GITHUB_-inkk](https://github.com/)
+[My-GITHUB_-Link](https://github.com/)
 
 
 
@@ -120,7 +120,7 @@ var questions = [
         name: 'licence',
         
        
-        message: "Licence name is:?",
+        message: "Licence name is MIT:",
         default:"MIT",
         
        
