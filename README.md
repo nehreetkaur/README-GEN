@@ -62,7 +62,7 @@ MIT  [READ-MORE-ABOUT-LICENCES](https://opensource.org/licenses/MIT)
 ### GITHUB-USERNAME:  **nehreet kaur**
 
 
-[My-GITHUB_-inkk](https://github.com/)
+[My-GITHUB-Link](https://github.com/)
 
 
 
