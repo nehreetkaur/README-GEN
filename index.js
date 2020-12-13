@@ -7,10 +7,11 @@ let createIndexTemp = (title,discription,installation,contributor,licence,github
 
 
 return  `# Title
+\`\`\`
 ${title}
+\`\`\`
 
-
-[![Licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Licence:${licence}](https://img.shields.io/badge/Licence-${licence}-green.svg)
  
 
 # Discription 
@@ -26,9 +27,12 @@ ${discription}
 
 \n* [Licence](#licence)
 \n* [Contributor](#contributor)
-\n* [github](#github)
+\n* [Github](#github)
 \n* [Email](#email)
 \n* [Questions](#questions)
+\n* [My-Github-Link](#github)
+\n* [Resources](#resources)
+
 
 
 ## Installation
@@ -40,31 +44,55 @@ ${discription}
 
 
 ## Licence
-**${licence}**
+THE **PROECT LICENCE**   is   **${licence}**
 
 
-MIT  [READ-MORE-ABOUT-LICENCES](https://opensource.org/licenses/MIT)
+[Read-about-MIT](https://opensource.org/licenses/MIT)
+
+[Read-about-GNUGPL](https://opensource.org/licenses/gpl-3.0)
+
+[Read-about-Apache](https://opensource.org/licenses/Apache-2.0)
 
 
 
 
 
-## github 
+
+
+## Github 
+
 **${github}**
 
-## email
+## Email
+
 **${email}** 
+
+## Programming-Language 
+\`\`\`
+  Java-Script
+ \`\`\`
 
 ## Questions
 
 **FEEL FREE TO CONTACT ME IN CASE OF ANY QUESTIONS**
 
-### E-Mail:  **${email}**
+ **E-Mail**:  **${email}**
 
-### GITHUB-USERNAME:  **${github}**
+**GITHUB-USERNAME**:  **${github}**
 
 
-[My-GITHUB-Link](https://github.com/)
+
+
+**[MY-Github-Repository-Link](https://github.com/nehreetkaur/README-GEN)**
+
+
+
+## Resources
+
+[FOR LICENCE]( https://shields.io/)
+
+
+[ANOTHER-RESOURCE-REFERRED](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
 
 
@@ -78,8 +106,9 @@ MIT  [READ-MORE-ABOUT-LICENCES](https://opensource.org/licenses/MIT)
 //[![license:mit](https://img.shields.io/badge/License-MIT-blue.svg)]
 
 
+//MIT  [READ-MORE-ABOUT-LICENCES](https://opensource.org/licenses/MIT)
 
-
+//(https://opensource.org/licenses/MIT)
 
 
 
@@ -116,12 +145,14 @@ var questions = [
     },
     {
 
-        type: 'input',
-        name: 'licence',
+         type: 'list',
+         name: 'licence',
         
        
-        message: "Licence name is MIT:",
-        default:"MIT",
+         message: "Licence name is MIT:",
+
+         default:"MIT",
+         choices:["MIT","GNUGPL","Apache."]
         
        
     },
@@ -162,15 +193,8 @@ inquirer
 
         console.log("licence is" +answers.licence);
 
-        const checking=(licence) =>{
-            if(licence==='MIT'){
-                return '[![Licensse-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
-            }else if(licence==='GNU GPL'){
-                return  '[![Licensse-GNU GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/gpl-3.0)'
-            }else if(licence==='Apache 2.0'){
-                return  '[![Licensse-GNU GPL](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)'
-            }
-        }
+        
+    
 
         const { title,discription,installation,contributor,licence,github,email } = answers;
         const template = createIndexTemp(title,discription,installation,contributor,licence,github,email);
@@ -207,3 +231,16 @@ inquirer
 //     if (err) throw err;
 //     console.log('The file has been saved!');
 // });
+
+
+
+
+
+    //  if(answers.licence==='MIT'){
+      //    licence=== '[![Licensse-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+      //}else if(answers.licence==='GNU GPL'){
+        //  licence ==='[![Licensse-GNU GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/gpl-3.0)'
+      //}else {
+        //  answers.licence===Apache%202
+          // licence=== '[![Licensse-GNU GPL](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)'
+      //}

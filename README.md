@@ -1,15 +1,16 @@
 # Title
-README.md
+```
+Readme
+```
 
-
-[![Licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Licence:Apache.](https://img.shields.io/badge/Licence-Apache.-green.svg)
  
 
 # Discription 
 
 
 
-Good readme generator by answering some prompts by user.
+Good readme file, by answering prompts
 
 
 # Table of contents
@@ -22,47 +23,76 @@ Good readme generator by answering some prompts by user.
 
 * [Contributor](#contributor)
 
-* [github](#github)
+* [Github](#github)
 
 * [Email](#email)
 
 * [Questions](#questions)
 
+* [My-Github-Link](#github)
+
+* [Resources](#resources)
+
+
 
 ## Installation
 
-**npm node inquirer**
+**node npm inquirer**
 
 ## Contributor
-**one**
+**NONE**
 
 
 ## Licence
-**MIT**
+THE **PROECT LICENCE**   is   **Apache.**
 
 
-MIT  [READ-MORE-ABOUT-LICENCES](https://opensource.org/licenses/MIT)
+[Read-about-MIT](https://opensource.org/licenses/MIT)
+
+[Read-about-GNUGPL](https://opensource.org/licenses/gpl-3.0)
+
+[Read-about-Apache](https://opensource.org/licenses/Apache-2.0)
 
 
 
 
 
-## github 
+
+
+## Github 
+
 **nehreet kaur**
 
-## email
-**kaur.nehreet @ gmail.com** 
+## Email
+
+**kaur.nehreet@gmail.com** 
+
+## Programming-Language 
+```
+  Java-Script
+ ```
 
 ## Questions
 
 **FEEL FREE TO CONTACT ME IN CASE OF ANY QUESTIONS**
 
-### E-Mail:  **kaur.nehreet @ gmail.com**
+ **E-Mail**:  **kaur.nehreet@gmail.com**
 
-### GITHUB-USERNAME:  **nehreet kaur**
+**GITHUB-USERNAME**:  **nehreet kaur**
 
 
-[My-GITHUB-Link](https://github.com/)
+
+
+**[MY-Github-Repository-Link](https://github.com/nehreetkaur/README-GEN)**
+
+
+
+## Resources
+
+[FOR LICENCE]( https://shields.io/)
+
+
+[ANOTHER-RESOURCE-REFERRED](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
 
 
