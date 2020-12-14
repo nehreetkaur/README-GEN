@@ -111,7 +111,7 @@ GITHUB-USERNAME:  ${github}
 
 
 ## DEMONSTRATION-VIDEO
-[VIDEO-DEMO](https://drive.google.com/file/d/183rEdZqefl--r7zvY_wCIRgjtxwZpQkB/view)
+![VIDEO-DEMO](images/Demo.gif)
 
 
 ### SCREEN-SHOT
@@ -225,13 +225,21 @@ inquirer
 
 
 
-//     Dynamically generates Readme file . User is prompted with some questions ,licence badge also shown on top.
- // README.md
+//   
+
+
+
+
+
+ //                   README.md
 //    
 
- //      kaur.nehreet@gmail.com
+//         Dynamically generates Readme file . User is prompted with some questions ,licence badge also shown on top
+
+ //     
+ 
  
 
- // node npm inquirer
+ //    node npm inquirer
 
- //nehreet kaur
+ //     nehreet kaur

@@ -10,7 +10,7 @@ README.md
 
 
 
- Dynamically generates Readme file . User is prompted with some questions ,licence badge also shown on top.
+ Dynamically generates Readme file . User is prompted with some questions ,licence badge also shown on top
 
 
 # Table of contents
@@ -38,7 +38,7 @@ README.md
 
 ## Installation
 
-node npm inquirer
+ node npm inquirer
 
 ## Contributor
 **NONE**
@@ -62,7 +62,7 @@ THE   **PROECT LICENCE**      is       **MIT**
 
 ## Github 
 
-nehreet kaur
+ nehreet kaur
 
 ## Email
 
@@ -82,7 +82,7 @@ FEEL FREE TO CONTACT ME IN CASE OF ANY QUESTIONS
  E-Mail:   kaur.nehreet@gmail.com
 
 
-GITHUB-USERNAME:  nehreet kaur
+GITHUB-USERNAME:   nehreet kaur
 
 
 
@@ -105,7 +105,7 @@ GITHUB-USERNAME:  nehreet kaur
 
 
 ## DEMONSTRATION-VIDEO
-[VIDEO-DEMO](https://drive.google.com/file/d/183rEdZqefl--r7zvY_wCIRgjtxwZpQkB/view)
+![VIDEO-DEMO](images/Demo.gif)
 
 
 ### SCREEN-SHOT
