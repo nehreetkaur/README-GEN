@@ -1,16 +1,16 @@
 # Title
 ```
-Readme
+README.md
 ```
 
-![Licence:Apache.](https://img.shields.io/badge/Licence-Apache.-green.svg)
+![Licence:MIT](https://img.shields.io/badge/Licence-MIT-green.svg)
  
 
 # Discription 
 
 
 
-Good readme file, by answering prompts
+ Dynamically generates Readme file . User is prompted with some questions ,licence badge also shown on top.
 
 
 # Table of contents
@@ -29,22 +29,23 @@ Good readme file, by answering prompts
 
 * [Questions](#questions)
 
-* [My-Github-Link](#github)
+*  [Programming-Language](#Programming-Language ) 
 
 * [Resources](#resources)
 
+* [DEMONSTRATION-VIDEO](#DEMONSTRATION-VIDEO)
 
 
 ## Installation
 
-**node npm inquirer**
+node npm inquirer
 
 ## Contributor
 **NONE**
 
 
 ## Licence
-THE **PROECT LICENCE**   is   **Apache.**
+THE   **PROECT LICENCE**      is       **MIT**
 
 
 [Read-about-MIT](https://opensource.org/licenses/MIT)
@@ -61,11 +62,11 @@ THE **PROECT LICENCE**   is   **Apache.**
 
 ## Github 
 
-**nehreet kaur**
+nehreet kaur
 
 ## Email
 
-**kaur.nehreet@gmail.com** 
+ kaur.nehreet@gmail.com
 
 ## Programming-Language 
 ```
@@ -74,16 +75,24 @@ THE **PROECT LICENCE**   is   **Apache.**
 
 ## Questions
 
-**FEEL FREE TO CONTACT ME IN CASE OF ANY QUESTIONS**
 
- **E-Mail**:  **kaur.nehreet@gmail.com**
-
-**GITHUB-USERNAME**:  **nehreet kaur**
+FEEL FREE TO CONTACT ME IN CASE OF ANY QUESTIONS
 
 
+ E-Mail:   kaur.nehreet@gmail.com
 
 
-**[MY-Github-Repository-Link](https://github.com/nehreetkaur/README-GEN)**
+GITHUB-USERNAME:  nehreet kaur
+
+
+
+
+[My-GIT-hub](https://github.com/)
+
+
+[MY-Github-Project-Repository](https://github.com/nehreetkaur/README-GEN)
+
+
 
 
 
@@ -94,5 +103,12 @@ THE **PROECT LICENCE**   is   **Apache.**
 
 [ANOTHER-RESOURCE-REFERRED](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
+
+## DEMONSTRATION-VIDEO
+[VIDEO-DEMO](https://drive.google.com/file/d/183rEdZqefl--r7zvY_wCIRgjtxwZpQkB/view)
+
+
+### SCREEN-SHOT
+![Terminal-screenshot](images/terminalscreenshot.png)
 
 

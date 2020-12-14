@@ -1,12 +1,19 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const { generateKeyPair } = require('crypto');
+const { Readable } = require('stream');
+const { unescape } = require('querystring');
+const { title, exitCode } = require('process');
+const { basename } = require('path');
+const { BADNAME } = require('dns');
+const { workers } = require('cluster');
 
 
 
-let createIndexTemp = (title,discription,installation,contributor,licence,github,email) =>{
+let createIndexTemp = (title, discription, installation, contributor, licence, github, email) => {
 
 
-return  `# Title
+    return `# Title
 \`\`\`
 ${title}
 \`\`\`
@@ -30,21 +37,21 @@ ${discription}
 \n* [Github](#github)
 \n* [Email](#email)
 \n* [Questions](#questions)
-\n* [My-Github-Link](#github)
+\n*  [Programming-Language](#Programming-Language ) 
 \n* [Resources](#resources)
-
+\n* [DEMONSTRATION-VIDEO](#DEMONSTRATION-VIDEO)
 
 
 ## Installation
 
-**${installation}**
+${installation}
 
 ## Contributor
 **${contributor}**
 
 
 ## Licence
-THE **PROECT LICENCE**   is   **${licence}**
+THE   **PROECT LICENCE**      is       **${licence}**
 
 
 [Read-about-MIT](https://opensource.org/licenses/MIT)
@@ -61,11 +68,11 @@ THE **PROECT LICENCE**   is   **${licence}**
 
 ## Github 
 
-**${github}**
+${github}
 
 ## Email
 
-**${email}** 
+${email}
 
 ## Programming-Language 
 \`\`\`
@@ -74,16 +81,24 @@ THE **PROECT LICENCE**   is   **${licence}**
 
 ## Questions
 
-**FEEL FREE TO CONTACT ME IN CASE OF ANY QUESTIONS**
 
- **E-Mail**:  **${email}**
-
-**GITHUB-USERNAME**:  **${github}**
+FEEL FREE TO CONTACT ME IN CASE OF ANY QUESTIONS
 
 
+ E-Mail:  ${email}
 
 
-**[MY-Github-Repository-Link](https://github.com/nehreetkaur/README-GEN)**
+GITHUB-USERNAME:  ${github}
+
+
+
+
+[My-GIT-hub](https://github.com/)
+
+
+[MY-Github-Project-Repository](https://github.com/nehreetkaur/README-GEN)
+
+
 
 
 
@@ -95,21 +110,17 @@ THE **PROECT LICENCE**   is   **${licence}**
 [ANOTHER-RESOURCE-REFERRED](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 
 
+## DEMONSTRATION-VIDEO
+[VIDEO-DEMO](https://drive.google.com/file/d/183rEdZqefl--r7zvY_wCIRgjtxwZpQkB/view)
+
+
+### SCREEN-SHOT
+![Terminal-screenshot](images/terminalscreenshot.png)
+
 
 `;
 }
 //console.log(createIndexTemp);
-// https://shields.io/
-//https://github.com/hyperium/hyper/issues/525
-//https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
-
-//[![license:mit](https://img.shields.io/badge/License-MIT-blue.svg)]
-
-
-//MIT  [READ-MORE-ABOUT-LICENCES](https://opensource.org/licenses/MIT)
-
-//(https://opensource.org/licenses/MIT)
-
 
 
 var questions = [
@@ -139,22 +150,22 @@ var questions = [
         type: 'list',
         name: 'contributor',
         message: "Please enter if there are any contributors",
-        choices:["one","Two","NONE"]
+        choices: ["one", "Two", "NONE"]
 
 
     },
     {
 
-         type: 'list',
-         name: 'licence',
-        
-       
-         message: "Licence name is MIT:",
+        type: 'list',
+        name: 'licence',
 
-         default:"MIT",
-         choices:["MIT","GNUGPL","Apache."]
-        
-       
+
+        message: "Licence name is MIT:",
+
+        default: "MIT",
+        choices: ["MIT", "GNUGPL", "Apache."]
+
+
     },
     // {
     //     type: 'input',
@@ -170,14 +181,8 @@ var questions = [
         type: 'input',
         name: 'email',
         message: "What's your email",
-    },  
-    
+    },
 
-    // {
-    //     type: 'input',
-    //     name: 'questions',
-    //     message: "Any Questions",
-    // }
 
 ];
 
@@ -191,16 +196,16 @@ inquirer
         // Use user feedback for... whatever!!
         console.log(answers);
 
-        console.log("licence is" +answers.licence);
+        console.log("licence is" + answers.licence);
 
-        
-    
 
-        const { title,discription,installation,contributor,licence,github,email } = answers;
-        const template = createIndexTemp(title,discription,installation,contributor,licence,github,email);
 
-        
-           
+
+        const { title, discription, installation, contributor, licence, github, email } = answers;
+        const template = createIndexTemp(title, discription, installation, contributor, licence, github, email);
+
+
+
 
 
         fs.writeFile('README.md', template, (err) => {
@@ -220,27 +225,13 @@ inquirer
 
 
 
+//     Dynamically generates Readme file . User is prompted with some questions ,licence badge also shown on top.
+ // README.md
+//    
 
+ //      kaur.nehreet@gmail.com
+ 
 
+ // node npm inquirer
 
-
-
-
-
-// fs.writeFile('readme.md', temp, (err) => {
-//     if (err) throw err;
-//     console.log('The file has been saved!');
-// });
-
-
-
-
-
-    //  if(answers.licence==='MIT'){
-      //    licence=== '[![Licensse-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
-      //}else if(answers.licence==='GNU GPL'){
-        //  licence ==='[![Licensse-GNU GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://opensource.org/licenses/gpl-3.0)'
-      //}else {
-        //  answers.licence===Apache%202
-          // licence=== '[![Licensse-GNU GPL](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)'
-      //}
+ //nehreet kaur
