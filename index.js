@@ -111,10 +111,15 @@ GITHUB-USERNAME:  ${github}
 
 
 ## DEMONSTRATION-VIDEO
-![VIDEO-DEMO](images/Demo.gif)
+[VIDEO-DEMO](https://drive.google.com/file/d/1g1MP9RLnj9X3DWB-tGdyxInY9PpQPBZf/view)
+
+
+### GIF-DEMO
+![GIF-DEMO](images/Demo.gif)
 
 
 ### SCREEN-SHOT
+
 ![Terminal-screenshot](images/terminalscreenshot.png)
 
 

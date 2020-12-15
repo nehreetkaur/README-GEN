@@ -38,7 +38,7 @@ README.md
 
 ## Installation
 
- node npm inquirer
+node npm inquirer
 
 ## Contributor
 **NONE**
@@ -62,11 +62,11 @@ THE   **PROECT LICENCE**      is       **MIT**
 
 ## Github 
 
- nehreet kaur
+nehreet kaur
 
 ## Email
 
- kaur.nehreet@gmail.com
+kaur.nehreet@gmail.com
 
 ## Programming-Language 
 ```
@@ -79,10 +79,10 @@ THE   **PROECT LICENCE**      is       **MIT**
 FEEL FREE TO CONTACT ME IN CASE OF ANY QUESTIONS
 
 
- E-Mail:   kaur.nehreet@gmail.com
+ E-Mail:  kaur.nehreet@gmail.com
 
 
-GITHUB-USERNAME:   nehreet kaur
+GITHUB-USERNAME:  nehreet kaur
 
 
 
@@ -105,10 +105,15 @@ GITHUB-USERNAME:   nehreet kaur
 
 
 ## DEMONSTRATION-VIDEO
-![VIDEO-DEMO](images/Demo.gif)
+[VIDEO-DEMO](https://drive.google.com/file/d/1g1MP9RLnj9X3DWB-tGdyxInY9PpQPBZf/view)
+
+
+### GIF-DEMO
+![GIF-DEMO](images/Demo.gif)
 
 
 ### SCREEN-SHOT
+
 ![Terminal-screenshot](images/terminalscreenshot.png)
 
 
