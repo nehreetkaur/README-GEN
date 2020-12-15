@@ -117,3 +117,6 @@ GITHUB-USERNAME:  nehreet kaur
 ![Terminal-screenshot](images/terminalscreenshot.png)
 
 
+![GENERATED README.md Screenshot](images/1.png)
+
+

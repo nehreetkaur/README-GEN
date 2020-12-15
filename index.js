@@ -123,6 +123,9 @@ GITHUB-USERNAME:  ${github}
 ![Terminal-screenshot](images/terminalscreenshot.png)
 
 
+![GENERATED README.md Screenshot](images/1.png)
+
+
 `;
 }
 //console.log(createIndexTemp);
@@ -235,16 +238,3 @@ inquirer
 
 
 
-
- //                   README.md
-//    
-
-//         Dynamically generates Readme file . User is prompted with some questions ,licence badge also shown on top
-
- //     
- 
- 
-
- //    node npm inquirer
-
- //     nehreet kaur
