@@ -1,9 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-
-
-
 let createIndexTemp = (title, discription, installation, contributor, licence, github, email) => {
 
 
