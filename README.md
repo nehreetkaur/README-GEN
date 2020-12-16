@@ -1,6 +1,6 @@
 # Title
 ```
-README.md
+  README
 ```
 
 ![Licence:MIT](https://img.shields.io/badge/Licence-MIT-green.svg)
@@ -10,7 +10,7 @@ README.md
 
 
 
- Dynamically generates Readme file . User is prompted with some questions ,licence badge also shown on top
+Dynamically generates Readme file . User is prompted with some questions ,licence badge also shown on top
 
 
 # Table of contents
@@ -66,7 +66,7 @@ nehreet kaur
 
 ## Email
 
-kaur.nehreet@gmail.com
+ kaur.nehreet@gmail.com
 
 ## Programming-Language 
 ```
@@ -79,7 +79,7 @@ kaur.nehreet@gmail.com
 FEEL FREE TO CONTACT ME IN CASE OF ANY QUESTIONS
 
 
- E-Mail:  kaur.nehreet@gmail.com
+ E-Mail:   kaur.nehreet@gmail.com
 
 
 GITHUB-USERNAME:  nehreet kaur
