@@ -45,7 +45,7 @@ node npm inquirer
 
 
 ## Licence
-THE   **PROECT LICENCE**      is       **MIT**
+THE   **PROJECT LICENCE**      is       **MIT**
 
 
 [Read-about-MIT](https://opensource.org/licenses/MIT)

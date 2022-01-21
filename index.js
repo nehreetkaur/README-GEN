@@ -42,7 +42,7 @@ ${installation}
 
 
 ## Licence
-THE   **PROECT LICENCE**      is       **${licence}**
+THE   **PROJECT LICENCE**      is       **${licence}**
 
 
 [Read-about-MIT](https://opensource.org/licenses/MIT)
